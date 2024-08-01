@@ -1,0 +1,91 @@
+body {
+  background-color: rgb(45, 45, 45);
+  color: orange;
+  font-family: 'Open Sans',sans-serif;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  background-color: black;
+}
+
+header div a {
+    color: orange;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header div a:hover {
+    background-color: orange;
+    color: black;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header ul {
+  display: flex;
+}
+
+header li {
+  margin-left: 20px;
+}
+
+header li a {
+    color: rgb(136, 94, 16);
+    text-decoration: none;
+}
+
+header li a:hover {
+    color: black;
+    background-color: rgb(136, 94, 16);
+}
+
+main{
+    text-align: center;
+    margin: 60px 0;
+}
+
+main img { 
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
+
+main ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+main li{
+    background-color: rgb(249, 221, 169);
+    color: black;
+    padding-bottom: 10px;
+}
+
+.action {
+    text-decoration: none;
+    background-color: orange;
+    padding: 5px 10px;
+    border-radius: 8px;
+    color: white;
+}
+
+.action:hover {
+    background-color: rgb(118, 78, 4);
+}
